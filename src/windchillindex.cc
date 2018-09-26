@@ -15,7 +15,7 @@ namespace edu{
                         return -1;
                     }
 
-                    w = 33 - ((10 * sqrt(v) - v + 10.5) * (33 - t) / 23.1);
+                    w = 33 - ((10 * sqrt(v) - v + 10.5) * (33 - t)) / 23.1;
                     return w;
 
 
